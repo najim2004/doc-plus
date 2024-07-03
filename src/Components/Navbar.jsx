@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex justify-end ">
-        <button className="flex justify-center gap-2 h-12 w-[174px] rounded-xl border-[1px] border-[#343268] font-medium text-primary items-center">
+        <button className="flex justify-center gap-2 h-12 w-[174px] rounded-xl border-[1px] border-secondary font-medium text-primary items-center">
           Appointment <FiArrowUpRight />
         </button>
       </div>

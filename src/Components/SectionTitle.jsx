@@ -4,9 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const SectionTitle = ({ btn, title, desc, btn2 }) => {
   return (
     <div>
-      <button className="border-[1px] border-[#343268] px-6 py-[10px] rounded-3xl text-primary">
-        {btn}
-      </button>
+      <button className="btn">{btn}</button>
       <h2 className="text-4xl font-semibold leading-[56px] text-primary my-4 max-w-[396px]">
         {title}
       </h2>

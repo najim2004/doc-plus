@@ -16,7 +16,7 @@ const WhoWeAre = () => {
           alt=""
           className="max-w-[568px] h-[415px] rounded-[32px]"
         />
-        <div className="bg-[#343268] rounded-[32px] w-[395px] h-[210px] p-7 flex flex-col justify-center lg:absolute -left-[96px] -bottom-[8px]">
+        <div className="bg-secondary rounded-[32px] w-[395px] h-[210px] p-7 flex flex-col justify-center lg:absolute -left-[96px] -bottom-[8px]">
           <h3 className="text-white text-2xl font-medium mb-5">
             Our mission is simple
           </h3>
