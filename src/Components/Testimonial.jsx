@@ -11,7 +11,7 @@ const testimonials = [
       "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.",
     name: "Sarah D",
     profession: "IT Professional",
-    img: img1,
+    img: img3,
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const testimonials = [
       "As a busy professional, I appreciate the convenience and quality of care I receive at [Healthcare Provider Name]. From telemedicine consultations to routine check-ups, they've become my trusted partner in health and",
     name: "David S",
     profession: "Lawyer",
-    img: img3,
+    img: img1,
   },
 ];
 const Testimonial = () => {

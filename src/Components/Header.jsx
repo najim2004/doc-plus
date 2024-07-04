@@ -4,6 +4,10 @@ import coins from "../assets/Media/coins.svg";
 import video from "../assets/Media/video.svg";
 import star from "../assets/Media/star.svg";
 import Banner from "./Banner";
+import img1 from "../assets/Media/Ellipse 2.svg";
+import img2 from "../assets/Media/Ellipse 3.svg";
+import img3 from "../assets/Media/Ellipse 4.svg";
+import img4 from "../assets/Media/Ellipse 5.svg";
 
 const Header = () => {
   return (
@@ -53,6 +57,12 @@ const Header = () => {
             4.8 <img src={star} alt="" />
           </h3>
           <p className="text-sm leading-5">Over 20,000 Patient</p>
+          <div className="flex mt-5">
+            <img src={img1} alt="" />
+            <img className="-ml-4" src={img2} alt="" />
+            <img className="-ml-4" src={img3} alt="" />
+            <img className="-ml-4" src={img4} alt="" />
+          </div>
         </div>
         <div className="lg:row-span-3 rounded-3xl bg-[#FFFFF5] p-5 border-[0.5px] border-[rgba(2,0,67,0.20)] relative   ">
           <h3 className="text-[40px] font-semibold text-primary">$5000</h3>
